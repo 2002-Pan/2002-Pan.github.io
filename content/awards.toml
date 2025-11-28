@@ -1,0 +1,17 @@
+type = "card"
+title = "Awards"
+description = "Honors and awards I have received."
+
+[[items]]
+title = "First Prize"
+subtitle = "Southeast University"
+date = "2023"
+content = "18th Challenge Cup Competition."
+
+[[items]]
+title = "First Prize"
+subtitle = "Jiangsu Province"
+date = "2021"
+content = "23rd National Undergraduate Electronics Design Contest(Provincial Level)"
+
+

@@ -1,0 +1,61 @@
+[site]
+title = "Feiyang Pan"
+description = "PhD student at the Southeast University."
+favicon = "/favicon.svg"
+last_updated = "November 18, 2025"
+
+[author]
+name = "Feiyang Pan"
+title = "PhD Student"
+institution = "Southeast University"
+avatar = "/bio.png"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "230238437@seu.edu.cn"
+location = "Nanjing, China"
+
+
+google_scholar = "https://scholar.google.com/citations?user=DGOsH3oAAAAJ&hl=en&oi=sra"
+orcid = "https://orcid.org/my-orcid?orcid=0009-0005-2458-8691"
+github = "https://github.com/2002-Pan"
+
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

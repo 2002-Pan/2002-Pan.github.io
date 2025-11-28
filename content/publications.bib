@@ -1,0 +1,26 @@
+@INPROCEEDINGS{11157286,
+  author={Pan, Feiyang and Yin, Chunyan and Dou, Guangbin},
+  booktitle={2025 26th International Conference on Electronic Packaging Technology (ICEPT)}, 
+  title={Automated Mesh Generation in FEM: A Novel Approach Using Large Language Models}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-4},
+  abstract = {The automation of mesh generation in finite element method (FEM) simulations plays a crucial role in reducing computational effort while ensuring high accuracy. Traditional approaches for mesh refinement, particularly in geometries with stress concentrations, often involve post-processing error estimation and iterative adjustments, resulting in significant computational overhead. Recent advancements in large language models (LLMs) have demonstrated their potential to enhance various engineering processes by enabling more intelligent, context-aware predictions. This work explores the integration of LLMs into the automation of mesh generation, focusing on their ability to predict regions requiring finer mesh refinement directly from the geometric features of a model. By using a priori error predictions based on LLM analysis, the process significantly reduces the need for iterative corrections, leading to faster and more efficient mesh generation. The method was tested on a set of 100 common geometric models, achieving a success rate of 88.4%, with 66.8% of generated meshes having computational errors below 10%, as measured by the Zienkiewicz-Zhu (ZZ) error estimator. Moreover, this approach accelerates the mesh generation process by up to 3.54 times compared to traditional methods, validating the effectiveness of LLM-driven automation in FEM simulations. This work provides a promising pathway for improving the efficiency of mesh generation in engineering simulations, leveraging the power of AI to streamline traditionally labor-intensive processes.},
+  preview={icept.png},
+  selected={true},
+  keywords={Adaptation models;Automation;Accuracy;Uncertainty;Large language models;Computational modeling;Finite element analysis;Iterative methods;Mesh generation;Stress;Adaptive meshing;Large language model (LLM);Simulation automation},
+  doi={10.1109/ICEPT67137.2025.11157286}}
+
+
+
+@article{pan2025moe,
+  title={MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes},
+  author={Pan, Feiyang and Zheng, Shenghe and Yin, Chunyan and Dou, Guangbin},
+  journal={arXiv preprint arXiv:2506.06318},
+  year={2025},
+  selected={true},
+  description={},
+  abstract = {MEMS gyroscopes play a critical role in inertial navigation and motion control applications but typically suffer from a fundamental trade-off between measurement range and noise performance. Existing hardware-based solutions aimed at mitigating this issue introduce additional complexity, cost, and scalability challenges. Deep-learning methods primarily focus on noise reduction and typically require precisely aligned ground-truth signals, making them difficult to deploy in practical scenarios and leaving the fundamental trade-off unresolved. To address these challenges, we introduce Mixture of Experts for MEMS Gyroscopes (MoE-Gyro), a novel self-supervised framework specifically designed for simultaneous over-range signal reconstruction and noise suppression. MoE-Gyro employs two experts: an Over-Range Reconstruction Expert (ORE), featuring a Gaussian-Decay Attention mechanism for reconstructing saturated segments; and a Denoise Expert (DE), utilizing dual-branch complementary masking combined with FFT-guided augmentation for robust noise reduction. A lightweight gating module dynamically routes input segments to the appropriate expert. Furthermore, existing evaluation lack a comprehensive standard for assessing multi-dimensional signal enhancement. To bridge this gap, we introduce IMU Signal Enhancement Benchmark (ISEBench), an open-source benchmarking platform comprising the GyroPeak-100 dataset and a unified evaluation of IMU signal enhancement methods. We evaluate MoE-Gyro using our proposed ISEBench, demonstrating that our framework significantly extends the measurable range from 450 deg/s to 1500 deg/s, reduces Bias Instability by 98.4%, and achieves state-of-the-art performance, effectively addressing the long-standing trade-off in inertial sensing.},
+  preview={nips.png}
+}
