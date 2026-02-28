@@ -7,3 +7,9 @@ title = "Reviewer"
 subtitle = "CVPR"
 date = "2025"
 content = "Reviewed papers for CVPR2026"
+
+[[items]]
+title = "Reviewer"
+subtitle = "ECCV"
+date = "2026"
+content = "Reviewed papers for ECCV2026"
